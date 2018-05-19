@@ -238,8 +238,8 @@ contract StandardToken is ERC20, ERC223Token {
 
 contract VodkaToken is StandardToken {
 
-    string public constant name = "iWhisky Token";
-    string public constant symbol = "iWSK";
+    string public constant name = "Vodka Token";
+    string public constant symbol = "iVODKA";
     uint8 public constant decimals = 18;
     uint256 public constant INITIAL_SUPPLY = 10**9 * (10**uint256(decimals));
     address public owner;
